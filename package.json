@@ -4,7 +4,8 @@
   "description": "this is a nodejs demo app",
   "main": "server.js",
   "scripts": {
-    "test": "echo Test build completed! No package was uploaded"
+    "test": "echo Test build completed! No package was uploaded",
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
