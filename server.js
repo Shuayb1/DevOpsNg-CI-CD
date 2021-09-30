@@ -1,7 +1,10 @@
-const ronin     = require( 'ronin-server' )
-const mocks     = require( 'ronin-mocks' )
- 
-const server = ronin.server()
- 
-server.use( '/', mocks.server( server.Router(), false, true ) )
-server.start()
+const express = require('express');
+const app = express();
+app.get('/', (req, res) => {
+    console.log('hello nigga')
+});
+
+port = 3000
+app.listen(port, () => {
+    console.log(`simple node api runs at http://localhost:${port}`)
+})
