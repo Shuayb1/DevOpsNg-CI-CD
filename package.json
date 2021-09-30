@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo Test build completed! No package was uploaded",
-    "build": "npm run build"
+    "build": "npm run server"
   },
   "keywords": [],
   "author": "",
